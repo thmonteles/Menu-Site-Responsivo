@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page</title>
+    <link rel="stylesheet" href="adocao.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+  <header>
+    <nav id="nav" class="navbar">
+      <div class="name">
+        <a class="name" href="#">Amor de 4 patas</a>
+        <div class="logo">
+          <img class="image" src="img/logo.jpeg" alt="">
+        </div>
+      </div>
+          <div id="menu" class="nav-links">
+            <ul class="links">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Nosso Trabalho</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Adote</a>
+              </li>
+                  <li class="dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Apoio
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Ação Voluntária</a></li>
+                      <hr>
+                      <li><a class="dropdown-item" href="#">Doações de recursos</a></li>
+                      <hr>
+                      <li><a class="dropdown-item" href="#">fórum: tirar dúvidas</a></li>
+                    </ul>
+                  </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Cadastrar Pet</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Fale conosco</a>
+              </li>
+            </ul>
+          </div>
+          <div class="search">
+            <input type="text" class="search-txt" placeholder="Pesquisar...">
+            <a class="search-btn"><i class="ph-bold ph-magnifying-glass"></i></a>
+          </div>  
+          <button id="btn-mobile" class="mobile-menu" onclick="openMenu()">
+            <i id="icon" class="ph-bold ph-list"></i>
+            <div class="close">
+              <i id="close-menu" class="ph-bold ph-x"></i>
+            </div>
+            </button>
+      </nav>
+  </header>
+  <script src="menu.js"></script>
+</body>
+</html>
